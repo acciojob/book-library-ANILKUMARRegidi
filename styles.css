@@ -4,19 +4,36 @@ body{
 	justify-content:center;
 	align-items:center;
 	text-align:center;
-
+     background-color:#f8f8f8;
 }
 #h{
-	background-color:indianred;
+	background-color:#F1F1F0;
+	display:flex;
+	justify-content:center;
 	padding-bottom:20px;
 }
 .book-library{
-	background-color:#f8f8f8;
 	width:90vw;
 }
-.book{
-	background-color:hotpink;
+#a{
+	font-family:'CustomFont', sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+.book>img{
 	margin-top:20px;
+}
+.book{
+background-color:#F1F1F0;
+	margin-top:20px;
+}
+.book>p{
+	text-align:left;
+	margin:0px;
+}
+#n{
+	font-size:20px;
+   font-weight:bold;
 }
 #p{
 	display:flex;
